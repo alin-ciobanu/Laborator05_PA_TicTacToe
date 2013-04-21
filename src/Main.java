@@ -32,7 +32,7 @@ public class Main {
     static int maxi (Board b, PLAYER play_as, int depth, Pair p) {
 
     	NR_APELURI++;
-    	
+  
     	ArrayList<Pair> freeSquares = b.GetEmptySquares();
 
     	if (depth <= 0 || freeSquares.size() == 0 || 
